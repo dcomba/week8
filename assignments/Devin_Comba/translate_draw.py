@@ -40,6 +40,7 @@ if action == "1":
 				AAseq += translate[RNAseq[n:n+3]]
 		print ("Amino Acid sequence: ")
 		print (AAseq)
+	# DB: Minor, but could add an else here to warn user when sequence is not divisible by 3.
 
 #if user chose action 2, the following applies. this produces a sequence of codons and then picks one to spit out. 
 elif action == "2":
@@ -47,3 +48,5 @@ elif action == "2":
 	import random
 	randomCodon = random.choice(codon)
 	print (randomCodon)
+
+# DB: Very well done! Works well, is well organized, and well commented.
